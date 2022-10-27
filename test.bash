@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrightText: 2022 Takumi Ochiai
 # SPDX-License-Identifier: GPL-3.0
 
@@ -12,6 +12,15 @@ res=0
 ### I/O TEST ###
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
+
+### STRANGE INPUT ###
+out=$(echo あ | ./puls)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+out=$(echo  | ./puls)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
