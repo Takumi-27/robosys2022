@@ -14,11 +14,11 @@ out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
-out=$(echo あ | ./puls)
+out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
-out=$(echo  | ./puls)
+out=$(echo  | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
