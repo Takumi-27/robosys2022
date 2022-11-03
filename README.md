@@ -15,4 +15,4 @@
 ## テスト環境
 * Ubuntu
 
-* © 2022 Takumi Ochiai
+© 2022 Takumi Ochiai
