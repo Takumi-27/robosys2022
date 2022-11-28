@@ -2,7 +2,7 @@
 
 標準入力から読み込んだ数字を足し、標準出力する。
 
-##インストールおよび使用方法
+## インストールおよび使用方法
 `git clone git@github.com:Takumi-27/robosys2022.git
 `cd robosys2022
 `seq 10 | ./plus
