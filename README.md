@@ -7,7 +7,7 @@
 $ git clone git@github.com:Takumi-27/robosys2022.git
 $ cd robosys2022
 $ seq 10 | ./plus
-10
+55
 ```
 * 使用環境 Ubuntu 18.04.5
 * ソフトウェア Python3.7～3.10(動作確認済み)
