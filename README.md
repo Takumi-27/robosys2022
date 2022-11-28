@@ -1,13 +1,14 @@
-#plus	![test](https://github.com/Takumi-27/robosys2022/actions/workflows/test.yml/badge.svg)
+# plus	![test](https://github.com/Takumi-27/robosys2022/actions/workflows/test.yml/badge.svg)
 
 標準入力から読み込んだ数字を足し、標準出力する。
 
 ## インストールおよび使用方法
-`git clone git@github.com:Takumi-27/robosys2022.git
-`cd robosys2022
-`seq 10 | ./plus
-`10
-
+``` sh
+`$ git clone git@github.com:Takumi-27/robosys2022.git
+`$ cd robosys2022
+`$ seq 10 | ./plus
+`$ 10
+```
 * 使用環境 Ubuntu 18.04.5
 * ソフトウェア Python3.7～3.10(動作確認済み)
 
