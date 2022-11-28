@@ -1,21 +1,20 @@
-# ロボットシステム工学
-このリポジトリは、ロボットシステム工学で使用・作成したプログラムを保管するものです。
+#plus	![test](https://github.com/Takumi-27/robosys2022/actions/workflows/test.yml/badge.svg)
 
-プログラム一覧
-* plus
+標準入力から読み込んだ数字を足し、標準出力する。
 
-## plus
-![test](https://github.com/Takumi-27/robosys2022/actions/workflows/test.yml/badge.svg)
+##インストールおよび使用方法
+`git clone git@github.com:Takumi-27/robosys2022.git
+`cd robosys2022
+`seq 10 | ./plus
+`10
 
-標準入力から読み込んだ数字を足す。
-
-* 使用環境
-　Ubuntu 18.04.5
-* ソフトウェア
-  Python3.7～3.10(テスト済み)
+* 使用環境 Ubuntu 18.04.5
+* ソフトウェア Python3.7～3.10(動作確認済み)
 
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます。
+* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+      * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 
 ## 謝辞
 
